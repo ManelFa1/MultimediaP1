@@ -19,7 +19,7 @@ enum class Categoria{
 //Declarar classe Producte
 class Producte(
     val id: Int,
-    val non: String,
+    val nom: String,
     var preu: Double,
     var stock: Int,
     val categoria: Categoria
